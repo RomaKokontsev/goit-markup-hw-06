@@ -557,7 +557,84 @@ address{
 }
 
 .choose-social:not(:last-child){
-    margin-right: 10px;}
+    margin-right: 10px;
+}
+
+.footer-form{
+    margin-left: 93px;
+}
+
+.footer-label{
+    margin-bottom: 20px;
+    
+    display: flex;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-input{
+    display: inline-flex;
+    padding: 15px 0px 15px 16px;
+
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-button{
+    display: inline-flex;
+    align-items: center;
+
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+
+    background-color: var(--accent-color);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.footer-button-text{
+    
+    padding: 10px 0px 10px 29px;
+
+    font-weight: 500 ;
+    font-size: 16px;
+    line-height: 1.87;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+.footer-button-svg{
+    
+    margin-left: 10px;
+    
+    
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+}
+
 
 /*portfolio*/
 .samples{
