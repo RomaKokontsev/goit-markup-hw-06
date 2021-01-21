@@ -476,7 +476,7 @@ footer{
 }
 .footer-part{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .logo-footer{
     display: inline-block;
@@ -514,7 +514,7 @@ address{
 }
 
 .social-footer{
-    margin-left: auto;
+    margin-left: 70px;
     
 }
 .company-links{
